@@ -203,7 +203,7 @@ class Flake8(PythonLinter):
         '--builtins=,': '',
         '--max-line-length=': '',
         '--max-complexity=': '',
-        '--jobs=': '',
+        # '--jobs=': '',
         'show-code': False,
         'executable': ''
     }
